@@ -1,0 +1,17 @@
+{
+    "name": "knockout-attributeBinder",
+    "main": "dist/knockout-attributeBindner.min.js",
+    "dependencies": {
+        "knockout": ">= 3.0"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "ignore": [
+        "spec",
+        "src",
+        "gulpfile.js",
+        "karma.conf.js",
+        ".gitignore"
+    ]
+}
