@@ -2,7 +2,7 @@
 
 ## What is this plugin?
 
-The `knockout-attributeBinder` is a custom binding provider for Knockout that allows you to create bindings from any `data-` attributes and can map all of the existing Knockout bindings to use this syntax. 
+The `knockout-attributeBinder` is a custom binding provider for Knockout that allows you to create bindings from any `data-` (by default) attributes and can map all of the existing Knockout bindings to use this syntax. 
 
 This allows you to add bindings like:
 
@@ -34,7 +34,7 @@ Change the prefix from the default (`data`). For example, you may choose `data-k
 
 Register a new attribute handler. The handler functions takes four arguments:
 
-- **key** - the name of the mapping (if attribute was `data-myThing`, then this would be `myThing`). * Note: the attribute name is lower-cased during matching, but the `key` will always be provided to the handler with the original casing. *
+- **key** - the name of the mapping (if attribute was `data-myThing`, then this would be `myThing`). *Note: the attribute name is lower-cased during matching, but the `key` will always be provided to the handler with the original casing.*
 - **value** - the string value of the attribute
 - **context** - the data context associated with the node
 - **node** - the node itself
