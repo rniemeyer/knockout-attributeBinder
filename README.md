@@ -42,7 +42,7 @@ Register a new attribute handler. The handler functions takes four arguments:
 As a simple example suppose that you want to use `data-local` to provide localized text and that you have an object containing the current language's keys and values in an observable called `localizedKeys`. A handler might look like:
 
 ```js
-ko.attributeBinding.register("local", function(key, value) {
+ko.attributeBinder.register("local", function(key, value) {
     return {
         text: function() {
             return localizedKeys()[value] || "Not localized";
