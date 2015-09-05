@@ -1,6 +1,6 @@
 {
     "name": "knockout-attributeBinder",
-    "main": "dist/knockout-attributeBindner.min.js",
+    "main": "dist/knockout-attributeBinder.min.js",
     "dependencies": {
         "knockout": ">= 3.0"
     },
