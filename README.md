@@ -69,7 +69,7 @@ Clear out all of the mapped handlers.
 
 A function that can be used to parse an attribute's value as an expression with context. This is used as the handler for any of the existing bindings, if you choose to have them mapped. It can also be used for any custom handlers that you add or even within a custom handler.
 
-### ko.attributeBinder.defaulltStringHandler
+### ko.attributeBinder.defaultStringHandler
 
 A function that can be used to parse an attribute's value as a string. This allows for simpler processing and let's you do `data-something="someValue"` rather than having to wrap the value in quotes like: `data-something="'someValue'"`.
 
